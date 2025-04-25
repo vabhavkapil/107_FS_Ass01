@@ -1,0 +1,42 @@
+/* THEME COLORS */
+:root {
+  --bg-light: #f5f8fa;
+  --bg-dark: #0b1623;
+  --text-light: #0b1623;
+  --text-dark: #f5f8fa;
+  --primary-blue: #1e90ff;
+  --card-blue: #14263c;
+}
+
+body.light-mode {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+body.dark-mode {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.card {
+  background-color: var(--card-blue);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.btn-primary {
+  background-color: var(--primary-blue);
+  border: none;
+}
+
+.navbar-dark {
+  background-color: #101f33;
+}
+
+.theme-toggle-btn {
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+}
